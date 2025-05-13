@@ -29,5 +29,10 @@ class TransportFactory {
     }
 }
 public class App {
+
+    public static void main(String[] args) {
+        Transport t = TransportFactory.getTransport("bike");
+        t.deliver();
+    }
     
 }
